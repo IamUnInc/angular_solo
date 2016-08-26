@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Cowboy Bebop</title>
+
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/client-app.js"></script>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css"  />
+  </head>
+  <body>
+      <img src="./views/pictures/Cowboy_Bebop.jpg" alt="logo" width="500">
+      <div ng-include="'/views/partials/nav.html'"></div>
+      <main ng-view></main>
+      <h3 class="center-block">See You Space Cowboy...</h3>
+  </body>
+</html>
